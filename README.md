@@ -30,7 +30,7 @@
    Run the executable version:
 
    ```bash
-   ./exe_app/mouse_hold_and_clicker.exe
+   ./exe_app/ClickHold.exe
    ```
 
 ## Usage
@@ -40,7 +40,8 @@
 2. The welcome screen presents one options: "Click Hold".
 
 3. **Click Hold:**
-   - Press [F6] to on/off the ClickHold.
+   - Press [F5] to on/off the ClickHold LEFT.
+   - Press [F6] to on/off the ClickHold RIGHT.
    - Use the [ESC] button to exit.
 
 
