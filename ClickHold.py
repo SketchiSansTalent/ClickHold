@@ -48,7 +48,7 @@ def toggle_clicker(button):
         clicker_active = not clicker_active
     else:
         click_type = button
-        clicker_active = True  # Always activate the new button's click
+        clicker_active = True 
     print_interface(clicker_active, click_type)
 
 def stop_script():
@@ -59,7 +59,6 @@ def stop_script():
 
 print_interface(clicker_active, click_type)
 
-# Lance le thread de l'autoclicker
 threading.Thread(target=clicker_thread, daemon=True).start()
 
 keyboard.add_hotkey("f5", lambda: toggle_clicker('left'))
