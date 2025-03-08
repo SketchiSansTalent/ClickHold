@@ -47,4 +47,4 @@
 
 ## Executable Version
 
-An executable version of the application is available in the `exe_app` directory. Run `ClickHold.exe` to use the application without Python installed.
+An executable version of the application is available in the RELEASE section on the right of the repository. Run `ClickHold.exe` to use the application without Python installed.
